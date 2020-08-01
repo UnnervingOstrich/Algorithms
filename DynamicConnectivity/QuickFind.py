@@ -25,4 +25,3 @@ class QuickFind:
         for x in self.id:
             if self.id[x] == id_to_change:
                 self.id[x] = self.id[first_id]
-
