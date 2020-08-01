@@ -1,7 +1,8 @@
 import unittest
 
 # from QuickFind import QuickFind as Implementation
-from QuickUnion import QuickUnion as Implementation
+# from QuickUnion import QuickUnion as Implementation
+from WeightedQuickUnion import WeightedQuickUnion as Implementation
 
 
 class TestDynamicConnectivity(unittest.TestCase):
