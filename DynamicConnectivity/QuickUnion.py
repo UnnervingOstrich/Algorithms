@@ -18,6 +18,9 @@ class QuickUnion:
     def root(self, i):
         # While the node i and its root are not equal, follow the tree to its root
         while i != self.id[i]:
+            # Path compression
+            self.id[i] = self.id[id[i]]  # Have each node in path point to its grandparent (halving path length)
+            
             i = self.id[i]
         return i
 
